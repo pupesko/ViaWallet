@@ -12,6 +12,8 @@ namespace WebAPI_Test
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+
+            // test comment 
         }
     }
 }
